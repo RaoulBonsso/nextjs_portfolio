@@ -11,10 +11,11 @@ import { FaBehanceSquare } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaRegUserCircle } from "react-icons/fa";
+import SectionWrapper from "./SectionWrapper";
 
 const Contacts = () => {
   return (
-    <section className="border-t py-7 border-zinc-100 dark:border-zinc-800">
+    <SectionWrapper className="border-t py-7 border-zinc-100 dark:border-zinc-800">
       <Heading>Contacts</Heading>
       <div className="flex flex-wrap items-center gap-5">
         {data.map((contact) => (
@@ -55,13 +56,13 @@ const Contacts = () => {
               <FaRegUserCircle size={18} className="text-black dark:text-white" />
             )}
             
-            <span className="text-base capitalize text-zinc-700 dark:text-white font-bold">
+            <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
               {contact.label}
             </span>
           </Link>
         ))}
       </div>
-    </section>
+    </SectionWrapper>
   );
 };
 
