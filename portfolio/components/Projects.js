@@ -1,14 +1,23 @@
+'use client'
 import data from "@/data/projects";
 import Heading from "./Heading";
 import SectionWrapper from "./SectionWrapper";
 import Image from "next/image";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import Model from "./Model";
+import { useState } from "react";
 
 const Projects = () => {
+  const [state, setState] = useState(false);
+  const toggleModel = () =>{
+    setState(!state);
+ 
+  }
+  const [details,setDetails] = useState(null);
+
   return (
     <>
-    <Model />
+    <Model state={state} details={details} toggleModel={toggleModel} />
         <SectionWrapper>
       <Heading>projects</Heading>
       {data.map((projects) => (
@@ -29,7 +38,11 @@ const Projects = () => {
             <h2 className="text-lg md:text-xl font-bold text-zinc-700 dark:text-zinc-400 leading-[25px]">
               {projects.title}
             </h2>
-              <FaArrowTrendUp className="text-[20px] text-zinc-900 dark:text-zinc-white cursor-pointer"/>
+              <FaArrowTrendUp className="text-[20px] text-zinc-900 dark:text-white cursor-pointer" onClick={()=>{
+                toggleModel();
+                console.log("click")
+                setDetails(projects)
+              }}/>
 
             </div>
       
