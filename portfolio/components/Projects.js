@@ -9,11 +9,12 @@ import { useState } from "react";
 
 const Projects = () => {
   const [state, setState] = useState(false);
+  const [details,setDetails] = useState(null);
   const toggleModel = () =>{
     setState(!state);
  
   }
-  const [details,setDetails] = useState(null);
+ 
 
   return (
     <>
