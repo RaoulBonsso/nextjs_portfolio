@@ -1,9 +1,9 @@
 const data = {
     image: "/images/profile.jpg",
-    name: "rehan ullah khan",
-    jobTitle: "full stack javaScript & blockchain developer",
-    address: "malakand, pakistan",
-    experience: "Almost 7 years of experience",
-    education: "BS Software engineering",
+    name: "Bonsso Tiogo Raoul",
+    jobTitle: "full stack developer",
+    address: "France, Lyon",
+    experience: "Almost 3 years of experience",
+    education: "Baschelor Software engineering",
   };
   export default data;
