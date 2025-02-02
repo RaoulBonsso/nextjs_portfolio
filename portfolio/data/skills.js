@@ -1,3 +1,4 @@
+// data to be updated in a database
 const data = [
   { id: 1, name: "HTML", image: "/skills/html-5.png" },
   { id: 2, name: "CSS", image: "/skills/css3.png" },
