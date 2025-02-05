@@ -1,5 +1,5 @@
 const data = {
-    image: "/images/profile.jpg",
+    image: "/images/profile_utilisateur.jpeg",
     name: "Bonsso Tiogo Raoul",
     jobTitle: "full stack developer",
     address: "France, Lyon",
