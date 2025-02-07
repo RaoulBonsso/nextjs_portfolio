@@ -2,14 +2,28 @@ const data = [
   {
     id: 1,
     image: "/work/nordic.jpg",
-    company: "nordic software solution",
-    role: "MERN Stack Developer",
+    company: "Freelance",
+    role: "Mobile Frontend Developer",
     type: "remote",
-    date: "11/2022 - present",
+    date: "02/2024 - 07/2024",
+    skills: [
+      { id: 1, name: "flutter", image: "/skills/flutter.png" },
+      { id: 2, name: "gitlab", image: "/skills/gitlab_2.png" },
+      { id: 3, name: "graphql", image: "/skills/graphql.png" },
+    ],
+  },
+
+/*   {
+    id: 1,
+    image: "/work/nordic.jpg",
+    company: "Freelance",
+    role: "Frontend Developer",
+    type: "remote",
+    date: "02/2024 - 07/2024",
     skills: [
       { id: 1, name: "node JS", image: "/skills/node-js.png" },
-      { id: 2, name: "express JS", image: "/skills/express.png" },
-      { id: 3, name: "mongoDB", image: "/skills/mongodb.png" },
+   { id: 2, name: "express JS", image: "/skills/express.png" },
+      { id: 3, name: "mongoDB", image: "/skills/mongodb.png" }, 
       { id: 4, name: "react JS", image: "/skills/react.png" },
       { id: 5, name: "next", image: "/skills/next-js.png" },
       { id: 6, name: "redux", image: "/skills/redux.png" },
@@ -17,8 +31,8 @@ const data = [
       { id: 8, name: "material UI", image: "/skills/mui.png" },
       { id: 9, name: "github", image: "/skills/git.png" },
     ],
-  },
-  {
+  }, */
+  /* {
     id: 2,
     image: "/work/devsinc.jpeg",
     role: "backend developer",
@@ -68,6 +82,6 @@ const data = [
       "Created courses on React, Redux, Context API, Sass etc.",
       "Tutorial videos included projects such as social networks, Ecommerce, blogs, stripe integrations and more",
     ],
-  },
+  }, */
 ];
 export default data;

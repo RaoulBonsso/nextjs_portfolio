@@ -1,8 +1,8 @@
 const data = [
   {
     id: 1,
-    title: "Build Amazone clone in Next.js, Node.js and TypeScript",
-    image: "/projects/amazon.png",
+    title: "Build a Nike sell site",
+    image: "/projects/nike.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
     skills: [
@@ -13,10 +13,10 @@ const data = [
       { id: 3, name: "node", image: "/skills/node-js.png" },
       { id: 3, name: "mongodb", image: "/skills/mongodb.png" },
     ],
-    source_code: "http://github.com/link",
-    demo: "http://www.demo.com/mydemo",
+    source_code: "https://github.com/RaoulBonsso/Nike-Site",
+    demo: "https://nike-site-henna.vercel.app/",
   },
-  {
+ /*  {
     id: 2,
     title: "Build Youtube clone in Next.js 14, Graphql and TypeScript",
     image: "/projects/youtube.png",
@@ -66,6 +66,6 @@ const data = [
     ],
     source_code: "http://github.com/link",
     demo: "http://www.demo.com/mydemo",
-  },
+  }, */
 ];
 export default data;
