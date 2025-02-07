@@ -3,27 +3,27 @@ const data = [
     id: 1,
     name: "github",
     label: "github",
-    link: "http://github.com/username",
+    link: "https://github.com/RaoulBonsso",
   },
   {
     id: 2,
     name: "twitter",
     label: "twitter",
-    link: "http://twitter.com/username",
+    link: "https://x.com/BR_JoyBoy",
   },
   {
     id: 3,
     name: "linkedin",
     label: "linkedin",
-    link: "http://linkedin.com/username",
+    link: "https://www.linkedin.com/in/raoul-bonsso-153114283/",
   },
-  {
+/*   {
     id: 4,
     name: "youtube",
     label: "youtube",
     link: "http://youtube.com/username",
-  },
-  {
+  }, */
+/*   {
     id: 5,
     name: "instagram",
     label: "instagram",
@@ -34,24 +34,24 @@ const data = [
     name: "facebook",
     label: "facebook",
     link: "http://facebook.com/username",
-  },
+  }, */
   {
     id: 7,
     name: "behance",
     label: "behance",
-    link: "http://behance.com/username",
+    link: "https://www.behance.net/bonssoraoul",
   },
   {
     id: 8,
     name: "medium",
     label: "medium",
-    link: "http://medium.com/username",
+    link: "https://medium.com/@bonssoraoul",
   },
   {
     id: 9,
     name: "email",
     label: "email",
-    link: "mailto:email@gmail.com",
+    link: "mailto:bonssoraoul@gmail.com",
   },
   {
     id: 10,
