@@ -1,17 +1,15 @@
 const data = [
   {
     id: 1,
-    title: "Build a Nike sell site",
+    title: "Design a Stunning Nike Showcase Website",
     image: "/projects/nike.png",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,quam dolores accusamus delectus harum molestiae iure nesciunt amet molestias?",
+      "This website is both beautiful and impressive! I implemented it while learning Next.js, and it truly showcases stunning Nike displays ",
     skills: [
       { id: 1, name: "react", image: "/skills/react.png" },
       { id: 4, name: "typescript", image: "/skills/typescript.png" },
       { id: 2, name: "next", image: "/skills/next-js.png" },
       { id: 3, name: "tailwindcss", image: "/skills/tailwind.png" },
-      { id: 3, name: "node", image: "/skills/node-js.png" },
-      { id: 3, name: "mongodb", image: "/skills/mongodb.png" },
     ],
     source_code: "https://github.com/RaoulBonsso/Nike-Site",
     demo: "https://nike-site-henna.vercel.app/",

@@ -7,7 +7,7 @@ import data from "@/data/reviews";
 import { useState } from "react";
 
 const Reviews = () => {
-  const [count, setCount] = useState(6);
+  const [count, setCount] = useState(3);
   return (
     <SectionWrapper>
       <Heading>Testimonials</Heading>
@@ -26,7 +26,7 @@ const Reviews = () => {
           <div className="absolute bottom-0 w-full h-full bg-gradient-to-t from-white/80 dark:from-[#121212]/90 from-[50%] to-transparent flex justify-center items-end z-[9999]">
             <button
               className="h-[45px] bg-violet-600 text-white rounded-lg font-medium text-base capitalize px-4"
-              onClick={() => setCount(count + 6)}
+              onClick={() => setCount(count + (data.length-count))}
             >
               show more
             </button>

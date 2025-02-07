@@ -15,7 +15,7 @@ const Header = () => {
           src={image}
           fill
           alt="profile image"
-          className="w-full h-full object-cover hover:scale-125 hover:rotate-12 transition-all duration-500"
+          className="w-full h-full object-cover  rotate-12 hover:scale-125 hover:rotate-45 transition-all duration-500"
         />
       </div>
       <div className="flex-1">
